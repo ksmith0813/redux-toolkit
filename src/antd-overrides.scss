@@ -1,0 +1,26 @@
+.ant-menu-horizontal > .ant-menu-item-active:after,
+.ant-menu-horizontal > .ant-menu-item-open:after,
+.ant-menu-horizontal > .ant-menu-item-selected:after,
+.ant-menu-horizontal > .ant-menu-item:hover:after,
+.ant-menu-horizontal > .ant-menu-submenu-active:after,
+.ant-menu-horizontal > .ant-menu-submenu-open:after,
+.ant-menu-horizontal > .ant-menu-submenu-selected:after,
+.ant-menu-horizontal > .ant-menu-submenu:hover:after {
+  border-bottom: none !important;
+}
+
+.ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.ant-btn {
+  border-radius: 0 !important;
+}
+
+.ant-card-head {
+  border-bottom: 1px solid var(--gray-300) !important;
+}
+
+.ant-card-extra {
+  padding: 0 !important;
+}
