@@ -12,7 +12,7 @@ export const slice = createSlice({
   },
 })
 
-export const { addCat, removeCat } = slice.actions
+export const { addCat } = slice.actions
 
 export const getState = (state) => state.cat
 

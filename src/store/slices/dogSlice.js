@@ -12,7 +12,7 @@ export const slice = createSlice({
   },
 })
 
-export const { addDog, removeDog } = slice.actions
+export const { addDog } = slice.actions
 
 export const getState = (state) => state.dog
 
